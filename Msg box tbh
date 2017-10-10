@@ -1,0 +1,200 @@
+x= msgbox("Bottom test, simple OK msg box",0+64,"Top Text")
+    0 =OK button only
+    1 =OK and Cancel buttons
+    2 =Abort, Retry, and Ignore buttons
+    3 =Yes, No, and Cancel buttons
+    4 =Yes and No buttons
+    5 =Retry and Cancel buttons
+    16 =Critical Message icon
+    32 =Warning Query icon
+    48 = Warning Message icon
+    64 =Information Message icon
+    0 = First button is default
+    256 =Second button is default
+    512 =Third button is default
+    768 =Fourth button is default
+    0 =Application modal (the current application will not work until the user responds to the message box)
+    4096 =System modal (all applications wont work until the user responds to the message box)
+You can change what is in the commas to anything above.
+To make an example error message you would use
+    x= msgbox("An error has occurred!",0+16,"ERROR")
+You can also be a dick and loop it so you cant close it without going into task manager.
+     do
+     x= msgbox("Lol, im being a dick and not letting you close this message HAHA faggot.",0+64,"Lollololololollollololo")
+     loop
+ Make sure you put do on top and loop on bottom or else you will get an error.
+     To get rid of it you cant just click the x or OK, you will have to go into task manager by either pressing ctrl+alt+del and clicking task manager
+     or, press ctrl+shift+esc and go to processes and click wscript.exe and then click delete.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Ass hole.
