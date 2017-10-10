@@ -1,0 +1,1 @@
+x= msgbox("Simple OK Text/Msg Box",0+64,"Top Text")
